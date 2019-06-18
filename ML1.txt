@@ -1,0 +1,93 @@
+ML:
+ 
+#Data Science:
+1. Big data
+2.ML-->DL-->AI
+
+#pakages:
+Numpy
+pandas
+seaboom & matplotlib
+
+matlab
+
+#Numpy->Numerical Python
+Advance version of numpy->tensorflow
+
+
+###
+import numpy
+import numpy as np
+a=np.array([2,5,7,99,1,4])
+type(a)
+
+-->numpy.ndarray
+
+
+
+import numpy as np
+#creating 1D array
+a=np.array([2,3,5,79])
+b=np.array([12,13,15,179])
+
+#adding san=me D array
+c=a+b
+print(c)
+
+#multi
+m=a*b
+print(m)
+
+#add particular value in each element of array
+a5=a+5
+print(a5)	
+
+--> [ 14  16  20 258]
+[   24    39    75 14141]
+[ 7  8 10 84]
+
+
+
+#2D array:
+
+np.array([[2,5,8] , [3,6,1]])
+
+-->  array([[2, 5, 8],
+       [3, 6, 1]])
+
+
+
+x=np.array([[2,5,8] , [3,6,1]])
+print(x)
+
+-->[[2 5 8]
+ [3 6 1]]
+
+
+ x.shape
+(rows,cols)
+
+
+x.reshape()-> is used to change the dimension of array
+
+
+z[0:2]
+
+->array([[2, 7],
+       [3, 8]])
+
+
+np.zeros()-> fill zeroes in array
+np.ones()->fill 1 in array
+np.full()->fill array with same no.
+
+task 2-> generate 2*3  and 2*5 2D array with random element and save the data in 2 seperate files
+
+
+Data processing and visualisation:
+
+libraries for data visualisation::mpld3, matplotlib,seaborn,gnuplot
+
+
+plt.plot()-> this will draw straight lines
+plt 
