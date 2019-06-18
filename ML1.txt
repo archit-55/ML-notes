@@ -89,5 +89,11 @@ Data processing and visualisation:
 libraries for data visualisation::mpld3, matplotlib,seaborn,gnuplot
 
 
-plt.plot()-> this will draw straight lines
-plt 
+plt.plot()   -> this will draw straight lines
+plt.xlabel()  ->gives label to x axis
+plt.ylabel  ->gives label to y axis
+plt.bar()  ->used to plot bar graphs
+plt.grid()  ->used to form grids in graph
+plt.legend()  ->to show labels with plots
+plt.xlim()  -> to show min and max no. in  x-axis
+plt.ylim()   ->to show min and max no. in  y-axis
