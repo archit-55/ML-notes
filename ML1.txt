@@ -97,3 +97,5 @@ plt.grid()  ->used to form grids in graph
 plt.legend()  ->to show labels with plots
 plt.xlim()  -> to show min and max no. in  x-axis
 plt.ylim()   ->to show min and max no. in  y-axis
+plt.scatter()  -> to show only points
+shadow  ->used for shadow
