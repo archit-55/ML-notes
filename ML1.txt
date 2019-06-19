@@ -99,3 +99,5 @@ plt.xlim()  -> to show min and max no. in  x-axis
 plt.ylim()   ->to show min and max no. in  y-axis
 plt.scatter()  -> to show only points
 shadow  ->used for shadow
+autopct='%1.1f%%'   ->used to calculate percentage
+explode  ->space b/w pie graphs
